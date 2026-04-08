@@ -1,0 +1,20 @@
+# --- Core Data Engines ---
+numpy>=2.1.0        # Support for new discrete-choice array optimizations
+pandas>=2.2.0       # Arrow-backed by default for faster causal merges
+scipy>=1.12.0
+
+# --- Causal & Statistical Estimators ---
+statsmodels>=0.14.2  # Critical for stable DiD and RDD summary outputs
+scikit-learn>=1.4.2  # Required for the PSM manual matching logic
+econml>=0.16.0       # Latest stable for Double Machine Learning
+linearmodels>=6.0    # The "gold standard" for 2SLS (IV) in 2026
+
+# --- Structural & Bayesian Modeling ---
+pymc>=5.24.0         # Current stable PyMC version for structural models
+pytensor>=2.12.0     # The required backend for PyMC 5+
+arviz>=0.17.0        # For high-fidelity posterior visualization
+
+# --- Visualization & Validation ---
+matplotlib>=3.8.0
+seaborn>=0.13.0
+pydantic>=2.6.0      # For enforcing column types in our classes
